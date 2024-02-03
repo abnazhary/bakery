@@ -1,0 +1,351 @@
+body{
+    margin: 0;
+}
+.home{
+    min-height: 100%;
+    background-color: red;
+    background-image:url(.drew-coffman-1872.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    overflow: auto;
+}
+.home .content{
+    /* background-color: red; */
+    width: fit-content;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+    color: white;
+
+}
+.content .btn{
+    padding: 15px 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.content .btn1{
+    background-color: burlywood;
+    color: white;
+    font-size: 20px;
+}
+.content .btn2{
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+}
+.content h1{
+    font-size: 60px;
+}
+.content h4{
+    font-size: 20px;
+}
+.content p{
+    font-size: 20px;
+}
+.navbar{
+    /* background-color: red; */
+    
+}
+.navbar ul{
+    /* background-color: blue; */
+    width: fit-content;
+    /* float: right; */
+    margin-left: auto;
+    margin-top: -40px;
+    
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 20px 25px;
+    font-size: 25px;
+    list-style-type: none;
+    color: white;
+    cursor: pointer;
+
+
+}
+.navbar img{
+    /* margin-right: auto; */
+    width: 200px;
+    margin-top: 20px;
+
+}
+.navbar .container{
+    width: 90%;
+    margin: auto;
+}
+.clr{
+    clear: both;
+}
+
+.about{
+    /* background-color: red; */
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+    margin-top: 100px;
+}
+.about-img{
+    /* background-color: blue; */
+    width: 40%;
+    /* display: inline-block; */
+    float: left;
+    
+    
+}
+.about-img img{
+    width: 100%;
+}
+
+.about-content{
+    /* background-color: yellow; */
+    width: 50%;
+    /* display: inline-block; */
+    float: right;
+    text-align: center;
+    font-size: 18px;
+    margin-right: 60px;
+    margin-top: 50px;
+    color: #686868;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.about-content h2{
+    color: black;
+    text-align: left;
+    padding: 10px 40px;
+}
+
+.about-list{
+    text-align: left;
+    padding: 50px 0px;
+   
+}
+.about-list li{
+    padding: 10px 0px;
+}
+.clr{
+    clear: both;
+}
+
+
+
+
+
+
+.loc{
+    background-color:#68686812;
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+    margin: 100px 100px;
+
+
+}
+.loc-content{
+    /* background-color: blue; */
+    width: 40%;
+    float: left;
+    text-align: center;
+    margin-left: 100px;
+    text-align: left;
+    margin-top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 20px;
+    color: #686868;
+}
+.loc-content h3{
+    font-size: 25px;
+    color: black;
+}
+.loc-content p{
+    padding: 10px;
+}
+.loc-img{
+    /* background-color: yellow; */
+    width: 40%;
+    float: right;
+    padding: 50px;
+}
+.loc-img img{
+    width: 100%;
+}
+
+
+
+
+
+
+.baking{
+    /* background-color: red; */
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    overflow: auto;
+    margin: 50px 100px ;
+    color: #686868;
+
+}
+.baking p{
+    padding: 20px 0px;
+}
+.baking img{
+    width: 100%;
+}
+.baking-sup{
+    /* background-color: yellow; */
+    width: 30%;
+    float: left;
+    padding: 10px;
+}
+.baking h2{
+    color: black;
+}
+.baking-bagels{
+    /* background-color: blue; */
+    width: 30%;
+    float: left;
+    padding: 10px;
+
+
+}
+.baking-cookies{
+    /* background-color: blueviolet; */
+    width: 30%;
+    float: left;
+    padding: 10px;
+
+
+}
+.clr{
+    clear: both;
+}
+    
+
+
+
+.inf{
+    background-color:#68686816 ;
+    /* width: 90%;
+    margin: auto;
+    overflow: auto;
+    margin: 100px;
+    text-align: left; */
+}
+.inf-container{
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+    margin: 100px;
+    text-align: left;
+    color: #686868;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.inf-container h2{
+    color: black;
+    padding: 15px;
+}
+.inf-content{
+    /* background-color: blue; */
+    width: 40%;
+    float: left;
+}
+.inf-img{
+    /* background-color: yellow; */
+    width: 40%;
+    float: right;
+    padding: 50px;
+}
+.inf-img img{
+    width: 100%;
+}
+.inf-content .inf-content-list{
+    padding: 20px 15px;
+    
+}
+.inf-content .inf-content-list li{
+    padding: 15px;
+}
+.clr{
+    clear: both;
+}
+
+
+
+
+
+.all-inf{
+    background-color: rgb(198, 197, 197) ;
+    /* background-image: url(contact-details-map.png); */
+}
+  
+.all-inf h2{
+    padding: 20px;
+    color: white;
+}
+/* .all-inf p{
+    padding: 20px;
+} */
+.all-inf-container{
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+    margin: 100px;
+    font-family: "Alegreya Sans";
+    color: #686868;
+
+
+}
+
+.all-inf-about{
+    /* background-color: blue; */
+    width: 20%;
+    float: left;
+    padding: 30px;
+
+}
+.all-inf-weare{
+    /* background-color: rgba(0, 0, 0, 0.264); */
+    width: 20%;
+    float: left;
+    padding: 30px;
+
+
+}
+.all-inf-time{
+    /* background-color: blueviolet; */
+    width: 20%;
+    float: left;
+    padding: 30px;
+
+
+}
+.all-inf-contact{
+    /* background-color: brown; */
+    width: 20%;
+    float: left;
+    padding: 30px;
+
+}
+.clr{
+    clear: both;
+}
+
+
+
+.logo{
+    background-color: rgb(76, 75, 75);
+    width: 100%;
+    padding: 100px;
+}
+.logo-cap{
+    width:30% ;
+    text-align: center;
+    margin: auto;
+    margin-left: 350px;
+}
+
+
+
